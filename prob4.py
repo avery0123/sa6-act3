@@ -1,4 +1,4 @@
-# Function to find the intersection of two lists
+
 def find_intersection(list1, list2):
     intersection = list(filter(lambda x: x in list2, list1))
     return intersection
